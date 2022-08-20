@@ -34,7 +34,7 @@ namespace PROYECTOFINAL
             else
             {
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Notify", "alert('Notification : No se ha podido registrar el usuario');", true);
-                Response.Redirect("RegisterPage.aspx");
+                Response.Redirect("Login.aspx");
             }
             return;
 
